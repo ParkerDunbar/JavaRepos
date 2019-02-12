@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;neo4jSSHSession&apos; in &apos;group.dbt330.wikipedia.SSH_Connection&apos; to &apos;SSHSession&apos;&#x0D;&#x0A;- Original project: &apos;Wikipedia&apos;&#x0D;&#x0A;- Original element: &apos;group.dbt330.wikipedia.SSH_Connection.neo4jSSHSession&apos;&#x0D;&#x0A;- Renamed element: &apos;group.dbt330.wikipedia.SSH_Connection.SSHSession&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;neo4jSSHSession&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java&lt;group.dbt330.wikipedia{SSH_Connection.java[SSH_Connection^neo4jSSHSession" name="SSHSession" references="true" setter="false" stamp="1520543338800" textual="false" version="1.0"/>
+</session>

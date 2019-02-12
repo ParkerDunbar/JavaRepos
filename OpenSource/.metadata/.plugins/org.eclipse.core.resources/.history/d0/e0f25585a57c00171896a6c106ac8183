@@ -1,0 +1,18 @@
+package dunbar.parker.csc180.personcollection;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.List;
+
+public class Collection {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+		List<Person> people = PersonGenerator.generateRandomPeople(10000);
+		
+		for (Person p : people) {
+		System.out.println(p);
+		}
+
+	}
+
+}

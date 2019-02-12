@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;TicTacToe&apos;&#x0D;&#x0A;- Original project: &apos;TicTacToe&apos;&#x0D;&#x0A;- Original element: &apos;TicTacToe/src/edu.neumont.csc110.d.board&apos;" description="Delete element" element1="/src&lt;edu.neumont.csc110.d.board" element2="/src&lt;edu.neumont.csc110.d" element3="/src&lt;edu.neumont.csc110" element4="/src&lt;edu.neumont" element5="/src&lt;edu" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1478291151781" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package dunbar.parker.csc230.states;
+
+import dunbar.parker.csc230.turing.Turing;
+
+public class StateB implements State {
+	private Turing t;
+	
+	public StateB(Turing turing) {
+		this.setT(turing);
+	}
+
+	public void change() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Turing getT() {
+		return t;
+	}
+
+	public void setT(Turing t) {
+		this.t = t;
+	}
+}

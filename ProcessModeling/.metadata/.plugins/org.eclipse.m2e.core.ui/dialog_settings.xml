@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="dunbar.parker.csc370"/>
+			<item value="dunbar.parker.csc370.dekkers"/>
+			<item value="dunbar.parker.csc370.crepes"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="operating-table"/>
+			<item value="bowling-alley"/>
+			<item value="barber-shop"/>
+			<item value="socket-test"/>
+			<item value="sonic-drive-in"/>
+			<item value="seeking-therapy"/>
+			<item value="futures-and-semaphones"/>
+			<item value="dekkers-algorithm"/>
+			<item value="shared-corruption-assignment"/>
+			<item value="shared-corruption"/>
+			<item value="ships"/>
+			<item value="crepes"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\FTP-Web-Server\Multi-Threaded-FTP-Server\FTP-Server"/>
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\FTP-Web-Server\Multi-Threaded-FTP-Server\FTP-Client"/>
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\FTP-Web-Server\Multi-Theaded-Server"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\sonic-drive-in\src\main\java\dunbar\parker\csc370\sonic\Sonic.java"/>
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\seeking-therapy\src\main\java\dunbar\parker\csc370\therapy\Simulator.java"/>
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\shared-corruption\src\main\java\dunbar\parker\csc370\corruption\Driver.java"/>
+			<item value="C:\Users\Parker\Workspaces\ProcessModeling\dekkers-algorithm\src\main\java\dunbar\parker\csc370\dekkers\DThread.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.state.StateMachine"/>
+<fullyQualifiedTypeName name="parker.dunbar.csc230.state.StateMachine"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.parsing.Parser"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Grammar"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Sentence"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.NounPhrase"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.VerbPhrase"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Article"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Noun"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Verb"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.grammar.Preposition"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateA"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.State"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateB"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateC"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateD"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateE"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateF"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateG"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateH"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.states.StateI"/>
+<fullyQualifiedTypeName name="dunbar.parker.csc230.turing.Turing"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,40 @@
+package dunbar.parker.csc230.turing;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import dunbar.parker.csc230.states.State;
+import dunbar.parker.csc230.states.StateA;
+import dunbar.parker.csc230.states.StateB;
+import dunbar.parker.csc230.states.StateC;
+import dunbar.parker.csc230.states.StateD;
+import dunbar.parker.csc230.states.StateE;
+import dunbar.parker.csc230.states.StateF;
+import dunbar.parker.csc230.states.StateG;
+import dunbar.parker.csc230.states.StateH;
+import dunbar.parker.csc230.states.StateI;
+
+public class Turing {
+	private State state;
+	private StateA stateA;
+	private StateB stateB;
+	private StateC stateC;
+	private StateD stateD;
+	private StateE stateE;
+	private StateF stateF;
+	private StateG stateG;
+	private StateH stateH;
+	private StateI stateI;
+	
+	public void run() throws IOException {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("");
+		
+		while(true) {
+			
+			String input = bf.readLine();
+		}
+	}
+
+}

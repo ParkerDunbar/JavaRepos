@@ -1,0 +1,95 @@
+package dunbar.parker.csc370;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Shop {
+	public final static int SIM_CLOCK_TICKS = 1000;
+	public static int currentClockTick = 0;
+	public static Random random = new Random();
+
+	public static void main(String[] args) {
+		// 1 Barber
+		// AR = 20 mins (3 cust / hour)
+		// SR = 15 mins (4 cust / hour)
+
+		// RV = random value from 0 (inclusive) to 1 (non-inclusive)
+		// Inter-arrival time = -Ln(1-RV)*20
+		// Service time = -Ln(1-RV)*15
+
+		// Barber ready
+		// Create future events
+
+		List<Customer> future = createFutureEvents();
+		List<Customer> current = new ArrayList<Customer>();
+
+		while (currentClockTick <= SIM_CLOCK_TICKS) {
+			if (future.size() != 0) {
+				current.add(future.remove(0));
+			}
+			for (Customer c : current) {
+				checkForUpdate(c);
+			}
+
+		}
+
+		// Check arrival
+		// Check end service
+
+		// Average Wait Time
+		// double addedWait = 0;
+		// double utilRate = 0;
+		// for(Customer c : future) {
+		// addedWait += c.getWaitTime();
+		// utilRate += c.getServiceTime();
+		// }
+		//
+		// double averageWait = addedWait / future.size();
+		// double utilRateAverage = utilRate / SIM_CLOCK_TICKS;
+		//
+		// System.out.println(addedWait);
+		// System.out.println(future.size());
+		// System.out.println("AVERAGE WAIT TIME: " + averageWait);
+		// System.out.println("UTIL " + utilRateAverage);
+
+	}
+
+	private static void checkForUpdate(Customer c) {
+		while (c.getArrivalTime() > currentClockTick) {
+			if (c.getArrivalTime() == currentClockTick) {
+				c.run();
+			}
+			else if(c.getArrivalTime() + c.getServiceTime() == currentClockTick) {
+				c.run();
+			}
+			currentClockTick++;
+		}
+		int waitTime = currentClockTick - c.getArrivalTime();
+
+
+	}
+
+	private static List<Customer> createFutureEvents() {
+		List<Customer> customers = new ArrayList<Customer>();
+		int arrival = 0;
+		int customerId = 0;
+		while (arrival < SIM_CLOCK_TICKS) {
+			// Interval
+			// System.out.println(random.nextFloat());
+			int interval = (int) (-Math.log(1 - random.nextDouble()) * 20);
+			arrival += interval;
+			System.out.println("INTERVAL: " + interval);
+			System.out.println("ARRIVAL: " + arrival);
+
+			// Service
+			int service = (int) (-Math.log(1 - random.nextDouble()) * 15);
+			System.out.println("SERVICE: " + service);
+
+			customers.add(new Customer(customerId, arrival, service));
+			customerId++;
+			System.out.println();
+		}
+		return customers;
+	}
+}

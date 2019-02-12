@@ -1,0 +1,31 @@
+package parker.dunbar.csc230.statesA;
+
+import parker.dunbar.csc230.state.StateMachine;
+import parker.dunbar.csc230.states.State;
+
+public class StateAX implements State {
+
+	private StateMachine sm;
+
+	public StateAX(StateMachine sm) {
+		this.setSm(sm);
+	}
+
+	public void change(char c) {
+		if(c == 't')
+			this.getSm().setState(sm.getStateAY());
+		else if(c == ' ')
+			this.getSm().setState(sm.getStateA());
+		else
+			this.getSm().setState(sm.getStateCC());
+	}
+
+	public StateMachine getSm() {
+		return sm;
+	}
+
+	public void setSm(StateMachine sm) {
+		this.sm = sm;
+	}
+
+}

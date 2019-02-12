@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;dunbar.parker.csc230.parsing.Parser.state&apos; in &apos;dunbar.parker.csc230.parsing.Parser&apos;&#x0D;&#x0A;- Original project: &apos;context-free-parsing&apos;&#x0D;&#x0A;- Original element: &apos;dunbar.parker.csc230.parsing.Parser.state&apos;&#x0D;&#x0A;- Getter method name: &apos;getState&apos;&#x0D;&#x0A;- Setter method name: &apos;setState&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;state&apos;" flags="589830" getter="getState" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;dunbar.parker.csc230.parsing{Parser.java[Parser^state" insertion="1" setter="setState" stamp="1531911185995" version="1.0" visibility="1"/>
+</session>

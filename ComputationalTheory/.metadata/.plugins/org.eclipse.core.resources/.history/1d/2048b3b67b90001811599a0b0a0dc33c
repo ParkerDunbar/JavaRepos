@@ -1,0 +1,10 @@
+package dunbar.parker.csc230.states;
+
+public class StateC implements State {
+
+	public void change() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

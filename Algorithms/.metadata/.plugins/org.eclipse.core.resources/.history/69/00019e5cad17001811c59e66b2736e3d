@@ -1,0 +1,11 @@
+package algo.data.structures;
+
+public class BSTNode implements Comparable<BSTNode>{
+
+	public int compareTo(BSTNode o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

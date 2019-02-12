@@ -1,0 +1,43 @@
+package dunbar.parker.csc180.personcollection;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Collection {
+
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+//		#1
+		List<Person> people = PersonGenerator.generateRandomPeople(10000);
+		
+//		#2
+		List<Person> filteredPeople = people.stream()
+				.filter(p -> (p.getFirstname().charAt(0) == 'A'
+				|| p.getFirstname().charAt(0) == 'R'
+				|| p.getFirstname().charAt(0) == 'Q')
+				&& (p.getLastname().charAt(0) == 'S'
+				|| p.getLastname().charAt(0) == 'C'))
+				.collect(Collectors.toList());
+		
+//		#3
+//		filteredPeople.stream().filter(p -> p.getSsn() % 2 == 0).forEach(p -> System.out.println(p));
+		
+//		#4
+		List<String> shortenedPeople = people.stream()
+				.filter(p -> p.getFirstname().length() >= 4 && p.getFirstname().length() <= 7)
+				.map(p -> p.getFirstname())
+				.collect(Collectors.toList());
+		
+//		#5
+//		shortenedPeople.stream().forEach(p -> System.out.println(p));
+		
+//		#6
+		people.stream()
+				.sorted((o1, o2) -> Integer.compare(o2.getSsn(), o1.getSsn()))
+				.forEach(p -> System.out.println(p));
+	}
+	
+	
+
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.mytypes.WeaponOfChoice"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.operations.Operations"/>
+<fullyQualifiedTypeName name="java.rmi.server.Operation"/>
+<fullyQualifiedTypeName name="java.util.Currency"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="ConsoleUI"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.shiftcipher.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.hangman.ConsoleUI"/>
+<fullyQualifiedTypeName name="dunbar.parker.people.Person"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.list.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.consoleio.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.monopoly.Chance.ChanceCards"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.monopoly.Dice"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.monopoly.Jail"/>
+<fullyQualifiedTypeName name="edu.neumont.csc110.d.monopoly.Properties"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,6 @@
+package algo.data.structures;
+
+public class BinarySearchTree<T extends Comparable<? super T>> {
+	int count = 0;
+	BSTNode<T> root;
+}

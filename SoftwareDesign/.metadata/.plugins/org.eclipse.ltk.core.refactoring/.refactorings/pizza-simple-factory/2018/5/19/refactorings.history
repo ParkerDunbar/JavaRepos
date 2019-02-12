@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;dunbar.parker.csc360.utilities&apos; to &apos;dunbar.parker.csc360.pizza&apos;&#x0D;&#x0A;- Original project: &apos;pizza-simple-factory&apos;&#x0D;&#x0A;- Original element: &apos;pizza-simple-factory/src/main/java/dunbar.parker.csc360.utilities&apos;&#x0D;&#x0A;- Renamed element: &apos;pizza-simple-factory/src/main/java/dunbar.parker.csc360.pizza&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;dunbar.parker.csc360.utilities&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;dunbar.parker.csc360.utilities" name="dunbar.parker.csc360.pizza" qualified="false" references="true" stamp="1525876970611" textual="false" version="1.0"/>
+</session>

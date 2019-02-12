@@ -1,0 +1,17 @@
+package dunbar.parker.dbt330;
+
+import java.io.File;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//C:\Users\Parker Dunbar\Desktop\Databases\ap
+		File file = new File("C:\\Users\\Parker Dunbar\\Desktop\\Databases\\ap");
+		File[] fileList = file.listFiles();
+		for(File f : fileList) {
+			System.out.println(f);
+		}
+
+	}
+
+}

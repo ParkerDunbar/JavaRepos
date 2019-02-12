@@ -1,0 +1,85 @@
+package dunbar.parker.csc280.httpserver;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Map;
+
+public class HttpServer {
+
+	public enum HttpMethod {
+		Get, Post
+	}
+
+	private ServerSocket servSock;
+	private SocketIOManager socketIO = new SocketIOManager();
+
+	public HttpServer(int port) {
+		try {
+			servSock = new ServerSocket(port);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void run() {
+		while (true) {
+			try (Socket socket = servSock.accept() ){
+			// Read the http request
+			Map<String, String> headers = socketIO.readHttpRequestHeaders(socket.getInputStream());
+			// Determine request type
+			HttpMethod requestMethod = determineRequestType(headers);
+			byte[] requestBody = null;
+			if(requestMethod == HttpMethod.Post) {
+				requestBody = socketIO.readHttpRequestBody(socket.getInputStream());
+			}
+			// Take action (load the file etc)
+			switch(requestMethod) {
+			case Get:
+//				FileReader fileRead = new FileReader(null);
+				break;
+			case Post:
+				break;
+			default:
+				break;
+			}
+			// Create response
+			// Write response
+			// Close socket
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	private HttpMethod determineRequestType(Map<String, String> headers) {
+		String request = headers.get("CMD");
+		if(request.contains("GET")) {
+			return HttpMethod.Get;
+		}
+		else {
+			return HttpMethod.Post;
+		}
+	}
+	
+	
+	/* Example HTTP response (good)
+	 * 
+	 * HTTP/1.0 200 OK
+	 * Content-type: text/html
+	 * Content-length: 237
+	 * 
+	 * <html>...</html>
+	 * 
+	 * 
+	 * Example HTTP reponse (bad)
+	 * 
+	 * HTTP/1.0 404 NotFound
+	 * Content-type: text/html
+	 * Content-length: 644
+	 * 
+	 * <html> <body> <h1>File not found</h1> </body> </html>
+	 */
+}

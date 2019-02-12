@@ -1,0 +1,6 @@
+package algo.data.structures;
+
+public class BSTNode<T extends Comparable<? super T>>{
+	
+
+}

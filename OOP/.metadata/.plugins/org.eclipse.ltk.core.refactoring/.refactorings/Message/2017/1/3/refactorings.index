@@ -1,0 +1,8 @@
+1484844191731	Rename package 'edu.neumont.csc150.messageinterface'
+1484844259991	Delete element
+1484845798592	Encapsulate field 'username'
+1484846314417	Rename field 'username'
+1484847752386	Rename field 'ADD_RECIPIENTS'
+1484847764390	Rename field 'ADD_ATTACHMENTS'
+1484847780070	Rename method 'handleAddRecipients'
+1484847787142	Rename method 'handleAddAttachments'

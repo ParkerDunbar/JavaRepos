@@ -1,0 +1,37 @@
+package dunbar.parker.csc370.surgery;
+
+import java.util.Random;
+
+public class ServiceProvider {
+	public final int SIM_CLOCK_TICKS = 5000;
+	public int currentClockTick = 0;
+	public Random random = new Random();
+	
+
+	public void run() {
+		
+		
+		
+		while (currentClockTick <= SIM_CLOCK_TICKS) {
+			if (future.size() != 0) {
+				current.add(future.remove(0));
+			}
+			for (Patient c : current) {
+//				checkForUpdate(c);
+			}
+			if (current.size() != 0) {
+				past.add(current.remove(0));
+			}
+		}
+		
+		System.out.println("Customers served: " + past.size());
+		System.out.println("Customers kicked out at end of the day: " + future.size());
+		
+		double averageWait = 0;
+		for(Patient c : past) {
+			averageWait += c.getWaitTime();
+		}
+		double average = averageWait / past.size();
+		System.out.println("Average wait time: " + average);
+	}
+}

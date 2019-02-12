@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;dunbar.parker.csc370.Customer.waitTime&apos; in &apos;dunbar.parker.csc370.Customer&apos;&#x0D;&#x0A;- Original project: &apos;barber-shop&apos;&#x0D;&#x0A;- Original element: &apos;dunbar.parker.csc370.Customer.waitTime&apos;&#x0D;&#x0A;- Getter method name: &apos;getWaitTime&apos;&#x0D;&#x0A;- Setter method name: &apos;setWaitTime&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;waitTime&apos;" flags="589830" getter="getWaitTime" id="org.eclipse.jdt.ui.self.encapsulate" input="/src\/main\/java&lt;dunbar.parker.csc370{Customer.java[Customer^waitTime" insertion="5" setter="setWaitTime" stamp="1540841537790" version="1.0" visibility="1"/>
+</session>

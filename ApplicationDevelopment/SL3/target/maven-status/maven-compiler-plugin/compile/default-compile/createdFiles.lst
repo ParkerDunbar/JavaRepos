@@ -1,0 +1,4 @@
+library\controller\BookRestController.class
+library\model\Book.class
+library\model\repositories\BookJpaRepository.class
+library\LibraryMain.class

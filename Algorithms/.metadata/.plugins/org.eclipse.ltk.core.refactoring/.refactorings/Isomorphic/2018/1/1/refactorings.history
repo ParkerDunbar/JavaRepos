@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dunbar.parker.csc250.Strings&apos; to &apos;Isomorphic&apos;&#x0D;&#x0A;- Original project: &apos;Isomorphic&apos;&#x0D;&#x0A;- Original element: &apos;dunbar.parker.csc250.Strings&apos;&#x0D;&#x0A;- Renamed element: &apos;dunbar.parker.csc250.Isomorphic&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Strings&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;dunbar.parker.csc250{Strings.java[Strings" matchStrategy="1" name="Isomorphic" qualified="false" references="true" similarDeclarations="false" stamp="1515172938902" textual="false" version="1.0"/>
+</session>

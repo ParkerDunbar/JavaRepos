@@ -1,0 +1,5 @@
+package dunbar.parker.csc230.states;
+
+public interface State {
+	public void change();
+}

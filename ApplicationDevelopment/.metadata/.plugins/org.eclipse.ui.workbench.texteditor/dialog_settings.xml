@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="GridPane.rowIndex=&quot;19&quot; onAction=&quot;#buttonHandler&quot;" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="GridPane.rowIndex=&quot;19&quot;"/>
+			<item value="GridPane.rowIndex=&quot;18&quot;"/>
+			<item value="GridPane.rowIndex=&quot;17&quot;"/>
+			<item value="GridPane.rowIndex=&quot;16&quot;"/>
+			<item value="GridPane.rowIndex=&quot;15&quot;"/>
+			<item value="GridPane.rowIndex=&quot;14&quot;"/>
+			<item value="GridPane.rowIndex=&quot;13&quot;"/>
+			<item value="GridPane.rowIndex=&quot;12&quot;"/>
+			<item value="GridPane.rowIndex=&quot;11&quot;"/>
+			<item value="GridPane.rowIndex=&quot;10&quot;"/>
+			<item value="GridPane.rowIndex=&quot;9&quot;"/>
+			<item value="GridPane.rowIndex=&quot;8&quot;"/>
+			<item value="GridPane.rowIndex=&quot;7&quot;"/>
+			<item value="GridPane.rowIndex=&quot;6&quot;"/>
+			<item value="GridPane.rowIndex=&quot;5&quot;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="GridPane.rowIndex=&quot;19&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;18&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;17&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;16&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;15&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;14&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;13&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;12&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;11&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;10&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;9&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;8&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;7&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;6&quot; onAction=&quot;#buttonHandler&quot;"/>
+			<item value="GridPane.rowIndex=&quot;5&quot; onAction=&quot;#buttonHandler&quot;"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="248" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="354" key="DIALOG_HEIGHT"/>
+		<item value="441" key="DIALOG_X_ORIGIN"/>
+		<item value="253" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

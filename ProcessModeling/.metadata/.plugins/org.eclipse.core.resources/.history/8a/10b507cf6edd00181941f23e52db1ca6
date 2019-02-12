@@ -1,0 +1,103 @@
+package dunbar.parker.csc370.surgery;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+import dunbar.parker.csc370.surgery.Patient;
+
+public class OperatingRoom {
+	public final static int SIM_CLOCK_TICKS = 5000;
+	public static int currentClockTick = 0;
+	public static Random random = new Random();
+	public static final boolean otherServiceProvider = true;
+
+	public static void main(String[] args) {
+		// Surgeon 1
+		// AR = 1 hour (1 patients / hour)
+		// SR = 45 mins (1.3 patients / hour)
+		
+		// Surgeon 2
+		// AR = 30 mins (2 patients / hour)
+		// SR = 25 mins (2.4 patients / hour)
+
+		// RV = random value from 0 (inclusive) to 1 (non-inclusive)
+		
+		// Surgeon 1
+		// Inter-arrival time = -Ln(1-RV)*60
+		// Surgery time = -Ln(1-RV)*45
+		
+		// Surgeon 2
+		// Inter-arrival time = -Ln(1-RV)*30
+		// Surgery time = -Ln(1-RV)*25
+
+		
+		
+		
+		// Create future events
+		List<Patient> future = createFutureEvents();
+		List<Patient> current = new ArrayList<Patient>();
+		List<Patient> past = new ArrayList<Patient>();
+
+		while (currentClockTick <= SIM_CLOCK_TICKS) {
+			if (future.size() != 0) {
+				current.add(future.remove(0));
+			}
+			for (Patient c : current) {
+//				checkForUpdate(c);
+			}
+			if (current.size() != 0) {
+				past.add(current.remove(0));
+			}
+		}
+		
+		System.out.println("Customers served: " + past.size());
+		System.out.println("Customers kicked out at end of the day: " + future.size());
+		
+		double averageWait = 0;
+		for(Patient c : past) {
+			averageWait += c.getWaitTime();
+		}
+		double average = averageWait / past.size();
+		System.out.println("Average wait time: " + average);
+
+	}
+
+	private static void checkForUpdate(Patient c) {
+		while (currentClockTick < c.getArrivalTime()) {
+			currentClockTick++;
+		}
+		if (currentClockTick == c.getArrivalTime()) {
+			System.out.println("Customer " + c.getId() + " has arrived at clock tick " + currentClockTick);
+		} else if (currentClockTick > c.getArrivalTime()) {
+			int wait = currentClockTick - c.getArrivalTime();
+			System.out.println("Customer " + c.getId() + " arrived at clock tick " + c.getArrivalTime() + ", "
+					+ wait + " ticks before the last customer finished");
+		}
+		int waitTime = currentClockTick - c.getArrivalTime();
+		c.setWaitTime(waitTime);
+		c.run();
+	}
+
+	private static List<Patient> createFutureEvents() {
+		List<Patient> patients = new ArrayList<Patient>();
+		int arrival = 0;
+		int patientId = 0;
+		while (arrival < SIM_CLOCK_TICKS) {
+			// Interval
+			int interval = (int) (-Math.log(1 - random.nextDouble()) * 60);
+			arrival += interval;
+//			System.out.println("PATIENT: " + customerId);
+//			System.out.println("INTERVAL: " + interval);
+//			System.out.println("ARRIVAL: " + arrival);
+
+			// Service
+			int service = (int) (-Math.log(1 - random.nextDouble()) * 45);
+//			System.out.println("SURGERY_TIME: " + service);
+
+			patients.add(new Patient(patientId, arrival, service));
+			patientId++;
+		}
+		return patients;
+	}
+}

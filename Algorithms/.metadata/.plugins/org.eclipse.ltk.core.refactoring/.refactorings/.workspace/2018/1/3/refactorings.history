@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Sorter&apos; to &apos;DunbarP_SortingLib&apos;" description="Rename resource &apos;Sorter&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Sorter" name="DunbarP_SortingLib" stamp="1516204543069" updateReferences="true"/>
+</session>

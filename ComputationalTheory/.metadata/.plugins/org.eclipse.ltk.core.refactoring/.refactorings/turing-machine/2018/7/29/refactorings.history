@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dunbar.parker.csc230.turing.Turning&apos; to &apos;Turing&apos;&#x0D;&#x0A;- Original project: &apos;turing-machine&apos;&#x0D;&#x0A;- Original element: &apos;dunbar.parker.csc230.turing.Turning&apos;&#x0D;&#x0A;- Renamed element: &apos;dunbar.parker.csc230.turing.Turing&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Turning&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;dunbar.parker.csc230.turing{Turning.java[Turning" matchStrategy="1" name="Turing" qualified="false" references="true" similarDeclarations="false" stamp="1531925767035" textual="false" version="1.0"/>
+</session>

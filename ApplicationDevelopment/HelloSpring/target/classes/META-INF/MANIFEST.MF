@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: hello-spring
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Parker Dunbar
+Implementation-Vendor-Id: cox.ryan.csc280
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/hello-spring
+ /
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

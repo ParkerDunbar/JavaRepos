@@ -1,0 +1,9 @@
+package dunbar.parker.csc370.surgery;
+
+public class Patient {
+
+	public Patient(int customerId, int arrival, int service) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

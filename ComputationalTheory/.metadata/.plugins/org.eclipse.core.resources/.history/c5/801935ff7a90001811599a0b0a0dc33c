@@ -1,0 +1,18 @@
+package dunbar.parker.csc230.turing;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Turing {
+	
+	public void run() throws IOException {
+		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("");
+		
+		while(true) {
+			String input = bf.readLine();
+		}
+	}
+
+}

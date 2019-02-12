@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta charset="ISO-8859-1">
+<title>Hello Test</title>
+<script type="text/javascript">
+	function determineFunction() {
+		var funct = $("input[name='function']:checked").val();
+		if(funct == 'Add') {
+			return doAddResult()
+		}
+		else if(funct == 'Subtract') {
+			return doSubResult()
+		}
+		else if(funct == 'Multiply') {
+			return doMultResult()
+		}
+		else if(funct == 'Divide') {
+			return doDivResult()
+		}
+	}
+	function doAddResult() {
+		var x = $('#x').val();
+		var y = $('#y').val();
+		$.ajax({
+			url:'http://localhost:8080/calc/add?x=' + x + '&y=' + y,
+			method: 'GET',
+			success: function(data) {
+				console.log(data);
+				$('#result').val(data);
+			},
+			error: function(x, y, z) {
+				console.log(x);
+				console.log(y);
+				console.log(z);
+			}
+		});
+		return false;
+	}
+	function doSubResult() {
+		var x = $('#x').val();
+		var y = $('#y').val();
+		$.ajax({
+			url:'http://localhost:8080/calc/subtract?x=' + x + '&y=' + y,
+			method: 'GET',
+			success: function(data) {
+				console.log(data);
+				$('#result').val(data);
+			},
+			error: function(x, y, z) {
+				console.log(x);
+				console.log(y);
+				console.log(z);
+			}
+		});
+		return false;
+	}
+	function doMultResult() {
+		var x = $('#x').val();
+		var y = $('#y').val();
+		$.ajax({
+			url:'http://localhost:8080/calc/multiply?x=' + x + '&y=' + y,
+			method: 'GET',
+			success: function(data) {
+				console.log(data);
+				$('#result').val(data);
+			},
+			error: function(x, y, z) {
+				console.log(x);
+				console.log(y);
+				console.log(z);
+			}
+		});
+		return false;
+	}
+	function doDivResult() {
+		var x = $('#x').val();
+		var y = $('#y').val();
+		$.ajax({
+			url:'http://localhost:8080/calc/divide?x=' + x + '&y=' + y,
+			method: 'GET',
+			success: function(data) {
+				console.log(data);
+				$('#result').val(data);
+			},
+			error: function(x, y, z) {
+				console.log(x);
+				console.log(y);
+				console.log(z);
+			}
+		});
+		return false;
+	}
+</script>
+</head>
+<body>
+	<h1>Calculator</h1>
+	<form onsubmit="return determineFunction()">
+		<label>Operand 1</label>
+		<input type="text" name="x" id="x" />
+		<br />
+		<label>Operand 2</label>
+		<input type="text" name="y" id="y" />
+		<br />
+		<input type="radio" name="function" value="Add" checked> Add<br>
+  		<input type="radio" name="function" value="Subtract"> Subtract<br>
+  		<input type="radio" name="function" value="Multiply"> Multiply<br>
+  		<input type="radio" name="function" value="Divide"> Divide<br>
+		<input type="submit" value="Submit" id="Submit" />
+		<hr />
+		<label>Result:</label>
+		<input type="text" name="result" id="result" />
+	</form>
+	
+	<hr />
+	<h1>Server Info</h1>
+</body>
+</html>

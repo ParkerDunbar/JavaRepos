@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="dunbar.parker.csc180"/>
+			<item value="dunbar.parker.csc280"/>
+			<item value="dunbar.parker.csc130.nim"/>
+			<item value="dunbar.parker.csc180.sockets"/>
+			<item value="dunbar.parker.csc180.javafx"/>
+			<item value="dunbar.parker.csc180.jdbc"/>
+			<item value="dunbar.parker.csc180.bingo"/>
+			<item value="dunbar.parker.pro100.noticeboard"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="hellosocket-client"/>
+			<item value="hellosocket"/>
+			<item value="nim"/>
+			<item value="client-socket"/>
+			<item value="server-socket"/>
+			<item value="hello-fxml"/>
+			<item value="hello-jdbc"/>
+			<item value="hello-javafx"/>
+			<item value="bingo-simulation"/>
+			<item value="noticeboard"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Parker Dunbar\OpenSource\nim\src\main\java\dunbar\parker\csc130\nim\Nim.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\noticeboard\src\main\java\dunbar\parker\pro100\noticeboard\model\User.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\noticeboard"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\functional-publisher\src\main\java\dunbar\parker\csc180\publisher\Driver.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\dashboard\src\main\java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\functional-streams\src\main\java\edu\neumont\csc180\functionalstreams\payments\ScratchSpace.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\generic-database\src\main\java\dunbar\parker\persistence\Database.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\contact-list\src\main\java\com\neufree\contacts\collections\ContactDatabaseSearch.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\contact-person\src\main\java\com\neufree\contacts\Contact.java"/>
+			<item value="C:\Users\Parker Dunbar\OpenSource\temp-convert\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

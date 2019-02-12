@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;iterator-menu-items&apos;" deleteContents="false" description="Delete resource &apos;iterator-menu-items&apos;" element1="/iterator-menu-items" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1527171383663"/>
+</session>

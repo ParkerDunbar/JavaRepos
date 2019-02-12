@@ -1,0 +1,10 @@
+package dunbar.parker.csc370.surgery;
+
+public class ServiceProvider {
+	public final static int SIM_CLOCK_TICKS = 5000;
+	
+
+	public void run() {
+		
+	}
+}

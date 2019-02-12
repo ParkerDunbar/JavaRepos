@@ -1,0 +1,54 @@
+package dunbar.parker.csc370;
+
+public class Customer extends Thread {
+	private int arrivalTime;
+	private int serviceTime;
+	private int waitTime;
+	private static Object barber = new Object();
+	
+	
+	public Customer(int arrival, int service, int wait) {
+		this.arrivalTime = arrival;
+		this.serviceTime = service;
+		this.waitTime = wait;
+	}
+
+
+	public void run() {
+		System.out.println("CUSTOMER " + this.getId() + " HAS ARRIVED AT CLOCK TICK " + this.arrivalTime);
+		while((this.arrivalTime + this.waitTime) >= Shop.currentClockTick) {}
+		synchronized(barber) {
+			System.out.println("CUSTOMER " + this.getId() + " HAS STARTED THEIR HAIRCUT");
+			loop: while((this.arrivalTime + this.serviceTime) >= Shop.currentClockTick) {
+				if(this.arrivalTime + this.serviceTime > Shop.SIM_CLOCK_TICKS)
+					break loop;
+			}
+		}
+		System.out.println("CUSTOMER " + this.getId() + " HAS FINISHED THIER SESSION, TOTAL WAIT TIME: " + this.waitTime);
+	}
+
+	public int getArrivalTime() {
+		return arrivalTime;
+	}
+
+	public void setArrivalTime(int arrivalTime) {
+		this.arrivalTime = arrivalTime;
+	}
+
+	public int getServiceTime() {
+		return serviceTime;
+	}
+
+	public void setServiceTime(int serviceTime) {
+		this.serviceTime = serviceTime;
+	}
+
+	public int getWaitTime() {
+		return waitTime;
+	}
+
+
+	public void setWaitTime(int waitTime) {
+		this.waitTime = waitTime;
+	}
+}

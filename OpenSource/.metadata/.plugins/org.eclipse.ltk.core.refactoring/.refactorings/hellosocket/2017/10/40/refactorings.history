@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hellosocket&apos; to &apos;dunbar.parker.csc280.hellosocket&apos;&#x0D;&#x0A;- Original project: &apos;hellosocket&apos;&#x0D;&#x0A;- Original element: &apos;hellosocket/src/main/java/hellosocket&apos;&#x0D;&#x0A;- Renamed element: &apos;hellosocket/src/main/java/dunbar.parker.csc280.hellosocket&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hellosocket&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;hellosocket" name="dunbar.parker.csc280.hellosocket" qualified="false" references="true" stamp="1506964837288" textual="false" version="1.0"/>
+</session>

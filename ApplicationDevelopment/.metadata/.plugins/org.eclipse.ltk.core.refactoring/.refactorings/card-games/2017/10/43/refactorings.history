@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;card-games/src/main/java/games/csc180/view/SelectGameScreen.fxml&apos; to &apos;SelectGame.fxml&apos;" description="Rename resource &apos;SelectGameScreen.fxml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/games/csc180/view/SelectGameScreen.fxml" name="SelectGame.fxml" stamp="1509030350924" updateReferences="true"/>
+</session>

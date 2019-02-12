@@ -1,0 +1,28 @@
+package dunbar.parker.csc230.states;
+
+import dunbar.parker.csc230.turing.Turing;
+
+public class StateE implements State {
+	private Turing t;
+	
+	public StateE(Turing turing) {
+		this.setT(turing);
+	}
+
+	public void change(char c) {
+		if(c == '9') {
+			t.getTuringInput()[t.getCurrentIndex()] = '0';
+			t.setCurrentIndex(t.getCurrentIndex() - 1);
+		}
+
+	}
+
+	public Turing getT() {
+		return t;
+	}
+
+	public void setT(Turing t) {
+		this.t = t;
+	}
+
+}
